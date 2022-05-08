@@ -5,6 +5,7 @@ import LandingPage from '../components/LandingPage'
 import Login from '../components/Login'
 import Logout from '../components/Logout'
 import NavbarP from '../components/Navbar'
+import Linea from '../components/Tables/Linea'
 import Marca from '../components/Tables/Marca'
 import PrivateRouter from './PrivateRoutes'
 import PublicRouter from './PublicRoutes'
@@ -43,6 +44,9 @@ const AppRouter = () => {
                 </PrivateRouter>} />
                 <Route path='/Marca' element={<PrivateRouter isAuthenticated={isLogin}>
                     <Marca />
+                </PrivateRouter>} />
+                <Route path='/Linea' element={<PrivateRouter isAuthenticated={isLogin}>
+                    <Linea />
                 </PrivateRouter>} />
 
             </Routes>

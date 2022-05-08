@@ -42,7 +42,7 @@ const NavbarP = () => {
                                 <NavDropdown title="Opciones de administrador" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Vehículos</NavDropdown.Item>
                                     <NavDropdown.Item href="/Marca">Marcas</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Lineas</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Linea">Lineas</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">Asesorar</NavDropdown.Item>
                                 </NavDropdown>
