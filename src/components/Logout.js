@@ -17,7 +17,7 @@ const Logout = () => {
     return (
         <div className='container-login'>
             <span>Logout</span>
-            <Button variant="primary" onClick={LogoutGoogle}>Cerrar Sesion</Button>
+            <Button variant="primary" onClick={LogoutGoogle}>Cerrar sesión</Button>
         </div>
     )
 }

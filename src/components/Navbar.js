@@ -28,23 +28,23 @@ const NavbarP = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/">Semillero SAS</Navbar.Brand>
+                <Navbar.Brand href="/">Semillero S.A.S</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Contactanos</Nav.Link>
+                        <Nav.Link href="#features">Contáctanos</Nav.Link>
                     </Nav>
                     <Nav>
                         {islogin &&
                             <>
-                                <NavDropdown title="Opciones de Administrador" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Vehiculos</NavDropdown.Item>
+                                <NavDropdown title="Opciones de administrador" id="collasible-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1">Vehículos</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Marcas</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Lineas</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">Asesorar</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="/Logout">Cerrar Sesion</Nav.Link>
+                                <Nav.Link href="/Logout">Cerrar sesión</Nav.Link>
                             </>
                         },
                         {!islogin &&

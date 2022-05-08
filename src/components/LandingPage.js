@@ -42,7 +42,7 @@ const LandingPage = () => {
                         <div key={index} className="container-vehiculo">
                             <img src={vehiculo.url_image} className="img-landing" alt={vehiculo.placa} />
                             <span>{vehiculo.placa}</span>
-                            <Button variant="dark" onClick={() => vehiculoSelect(vehiculo)}>Saber Mas</Button>
+                            <Button variant="dark" onClick={() => vehiculoSelect(vehiculo)}>Saber más</Button>
                         </div>
                     ))
                 }
