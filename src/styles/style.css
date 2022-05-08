@@ -34,5 +34,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.container-login {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    min-height: 120px;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container-login span {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container-login button {
+    width: 40%;
+    margin-bottom: 20px;
 }

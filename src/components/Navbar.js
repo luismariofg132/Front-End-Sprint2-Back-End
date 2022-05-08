@@ -13,7 +13,7 @@ const NavbarP = () => {
                         <Nav.Link href="#features">Contactanos</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">Iniciar Sesion</Nav.Link>
+                        <Nav.Link href="/login">Iniciar Sesion</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
