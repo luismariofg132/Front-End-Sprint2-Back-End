@@ -1,0 +1,1 @@
+export const urlVehiculos = 'http://localhost:3001/vehiculo'
