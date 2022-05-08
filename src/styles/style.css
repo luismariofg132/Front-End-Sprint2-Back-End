@@ -58,3 +58,29 @@
     width: 40%;
     margin-bottom: 20px;
 }
+
+.consultas {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.consultas span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.consultas2 {
+    width: 95vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.consultas2 span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}

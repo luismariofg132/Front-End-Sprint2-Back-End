@@ -32,14 +32,16 @@ const NavbarP = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Contáctanos</Nav.Link>
+                        {!islogin &&
+                            <Nav.Link href="#features">Contáctanos</Nav.Link>
+                        }
                     </Nav>
                     <Nav>
                         {islogin &&
                             <>
                                 <NavDropdown title="Opciones de administrador" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Vehículos</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Marcas</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Marca">Marcas</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Lineas</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">Asesorar</NavDropdown.Item>
