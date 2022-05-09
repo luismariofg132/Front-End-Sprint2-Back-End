@@ -84,3 +84,37 @@
 textarea {
     resize: none;
 }
+
+.consultas-3 {
+    margin-top: 40px;
+}
+
+.consultas-3 span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container-chat {
+    width: 80vw;
+    margin: auto;
+    background-color: #dddddd;
+    padding: 40px;
+    margin-top: 40px;
+    height: 60vh;
+    overflow: auto;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.container-input {
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-input input {
+    width: 80%;
+    border: solid 1px black;
+}

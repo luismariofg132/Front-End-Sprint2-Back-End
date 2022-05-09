@@ -33,18 +33,18 @@ const NavbarP = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         {!islogin &&
-                            <Nav.Link href="#features">Contáctanos</Nav.Link>
+                            <Nav.Link href="/Contacto">Contáctanos</Nav.Link>
                         }
                     </Nav>
                     <Nav>
                         {islogin &&
                             <>
                                 <NavDropdown title="Opciones de administrador" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Vehículos</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Vehiculo">Vehículos</NavDropdown.Item>
                                     <NavDropdown.Item href="/Marca">Marcas</NavDropdown.Item>
                                     <NavDropdown.Item href="/Linea">Lineas</NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Asesorar</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Agente">Asesorar</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="/Logout">Cerrar sesión</Nav.Link>
                             </>

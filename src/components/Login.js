@@ -12,6 +12,7 @@ const Login = () => {
         const auth = getAuth()
         signInWithPopup(auth, google)
             .then(({ user }) => {
+                localStorage.setItem('isAdmin', true)
                 Navigate('/')
             })
     }
