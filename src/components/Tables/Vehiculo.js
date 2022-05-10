@@ -3,8 +3,10 @@ import { useForm } from '../../hooks/useForm'
 import Table from 'react-bootstrap/Table'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
-import { Col, Form, Row } from 'react-bootstrap'
-import Swal from 'sweetalert2'
+// import { Col, Form, Row } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
+
+// import Swal from 'sweetalert2'
 import { urlVehiculos } from '../../helpers/urls'
 
 const Vehiculo = () => {

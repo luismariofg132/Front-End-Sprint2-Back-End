@@ -18,7 +18,7 @@ const AppRouter = () => {
     const [checking, setchecking] = useState(true)
     const [isLogin, setIsLogin] = useState(false)
 
-    const isAdmin = localStorage.getItem('isAdmin') || false
+    // const isAdmin = localStorage.getItem('isAdmin') || false
 
     useEffect(() => {
         const auth = getAuth()

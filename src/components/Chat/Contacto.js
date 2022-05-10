@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
-import socketIOClient from "socket.io-client";
-import { urlSocket } from '../../helpers/urls';
+// import socketIOClient from "socket.io-client";
+// import { urlSocket } from '../../helpers/urls';
 
 const Contacto = () => {
 
