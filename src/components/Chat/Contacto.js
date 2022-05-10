@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button } from 'react-bootstrap'
 // import socketIOClient from "socket.io-client";
 // import { urlSocket } from '../../helpers/urls';
@@ -15,7 +15,7 @@ const Contacto = () => {
             <div className='container-chat'>
                 <span>Contacto Asesor</span>
                 <p>
-                    It's <time dateTime={response}>{response}</time>
+                    {/* It's <time dateTime={response}>{response}</time> */}
                 </p>
             </div>
             <div className='container-input'>
