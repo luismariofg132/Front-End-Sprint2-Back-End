@@ -24,7 +24,7 @@ const Vehiculo = () => {
         file: ''
     })
 
-    const { placa, modelo, fv_seguro, fv_tecnicomecanica, id_linea, url_image, file } = values
+    const { placa, modelo, fv_seguro, fv_tecnicomecanica, id_linea, url_image } = values
 
     const [show2, setShow2] = useState(false);
     const handleClose2 = () => setShow2(false);
